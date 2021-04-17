@@ -1,0 +1,10 @@
+touch .gitignore // this line code create a new folder at the current path folder
+git config --global user.name nitins
+git config --global user.email youremail@example.com
+git init 
+git add .
+git commit -m "Initial Commit"
+git status // just to see
+ssh-keygen -t rsa -b 4096 -C "youremail.com"  // create ssh key 
+// new add this key to your GitHub Account
+git push origin master
